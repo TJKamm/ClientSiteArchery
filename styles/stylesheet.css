@@ -18,6 +18,7 @@ nav li {
 h1 {
   margin-top: 6rem;
   margin-right: 6rem;
+  margin-bottom: 1rem;
   color: #50433B;
   float: right;
 }
@@ -32,7 +33,7 @@ footer img {
 h2 {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  margin-left: 45%;
+  text-align: center;
 }
 section img {
   max-width: 40%;
@@ -75,18 +76,35 @@ a:active {
   color: darkslategray;
 }
 section h4 {
-  margin-left: 45%;
+  text-align: center;
   margin-bottom: 1rem;
 }
 h3 {
-  margin-left: 45%;
+  text-align: center;
   padding-bottom: 1rem;
 }
 video {
   display: block;
   margin: auto;
+  padding-bottom: 1rem;
+  width: 43%;
+  height: auto;
 }
 footer a:hover {
   color: #50433B;
   text-decoration: underline;
+}
+main img {
+  max-width: 40%;
+  display: block;
+  margin: auto;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+address p {
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+img.location {
+  max-width: 80%;
 }
