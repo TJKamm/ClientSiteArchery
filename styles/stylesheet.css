@@ -59,9 +59,6 @@ footer {
 footer p {
   padding: 0.2rem;
 }
-a {
-  text-decoration: none;
-}
 a:link {
   color: darkslategray;
   text-decoration: none;
@@ -91,9 +88,11 @@ video {
   width: 43%;
   height: auto;
 }
+footer a:link {
+  text-decoration: underline;
+}
 footer a:hover {
   color: #50433B;
-  text-decoration: underline;
 }
 main img {
   max-width: 40%;
