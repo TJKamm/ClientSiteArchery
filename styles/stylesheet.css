@@ -59,12 +59,8 @@ footer {
 footer p {
   padding: 0.2rem;
 }
-a {
-  text-decoration: none;
-}
 a:link {
   color: darkslategray;
-  text-decoration: none;
 }
 a:visited {
   color: darkslategray;
