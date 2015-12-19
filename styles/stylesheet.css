@@ -61,6 +61,7 @@ footer p {
 }
 a:link {
   color: darkslategray;
+  text-decoration: none;
 }
 a:visited {
   color: darkslategray;
@@ -87,9 +88,11 @@ video {
   width: 43%;
   height: auto;
 }
+footer a:link {
+  text-decoration: underline;
+}
 footer a:hover {
   color: #50433B;
-  text-decoration: underline;
 }
 main img {
   max-width: 40%;
